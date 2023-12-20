@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #14ce4c, #aa96c4);
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  padding: 10px;
+  margin: 50px;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #d20eae;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #30089d;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #b60ca0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+button:hover {
+  background-color: #90c513;
+}
+
+.todo-card {
+  border: 2px solid #893407;
+  margin: 30px 0;
+  padding: 10px;
+  background-color: #7eafc8;
+  position:relative;
+  margin-left: 700px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+
+}
+
+.todo-card h3 {
+  color: #7a8da0;
+}
+
+.todo-card p {
+  color: #273033;
+}
+
+.todo-card span {
+  color: #000000;
+  cursor: pointer;
+}
+
+.todo-card button {
+  background-color: #573f97;
+  color: #b25656;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.todo-card button:hover {
+  background-color: #3bcf16;
+}
